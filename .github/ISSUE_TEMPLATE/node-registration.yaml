@@ -1,0 +1,51 @@
+name: Node registration request
+description: Request to register a new node to the Suzaku network testnet phase.
+title: "[Node registration]: "
+labels: ["node-registration"]
+assignees:
+  - leopaul36
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: name
+    attributes:
+      label: Operator name
+      description: How should we call your entity?
+      placeholder: ex. Operator9000 LLC
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Operator description
+      description: Please provide a brief description of your entity.
+      placeholder: ex. As an experienced blockchain node operator, I want to join the Suzaku network to test the protocol.
+    validations:
+      required: true
+  - type: input
+    id: nodeid
+    attributes:
+      label: NodeID
+      description: Please provide the NodeID of your validator.
+      placeholder: ex. NodeID-A8rdxK5Yddh9kwbMkgkpb7oEN1GAxiBkz
+    validations:
+      required: true
+  - type: input
+    id: blspubkey
+    attributes:
+      label: NodeID
+      description: Please provide the BLS public key of your validator.
+      placeholder: ex. 0xa2d8524afaa3954d6d030e372af6606e959cf62b5442be07d1113c75c67c4cf6742a3338180eec1a325e9010eaaa3656
+    validations:
+      required: true
+  - type: input
+    id: blspop
+    attributes:
+      label: NodeID
+      description: Please provide the BLS Proof of Possession (PoP) of your validator.
+      placeholder: ex. 0xaeb3362dba19f937825f671c2a8395e91b5350909bff25918eb759f7c79bbd7beb86f67d36082f63a98504c1e6ef3bcf0980ea141e8a583373f4294f01401644c2386f39c47b53aa91a47ae90310c2c29e536de4d12f862f7d74c11f5ab2899a
+    validations:
+      required: true

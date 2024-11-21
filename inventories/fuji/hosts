@@ -1,0 +1,7 @@
+# Copyright (C) 2024, ADDPHO
+# See the file LICENSE for licensing terms.
+
+suzaku-testnet-node ansible_host=X.X.X.X avalanchego_http_host=0.0.0.0 ansible_user=ubuntu ansible_ssh_private_key_file=/path/to/key.pem
+
+[avalanche_nodes]
+suzaku-testnet-node

@@ -1,0 +1,9 @@
+# Copyright (C) 2024, ADDPHO
+# See the file LICENSE for licensing terms.
+---
+avalanchego_version: 1.12.0-fuji
+avalanchego_network_id: fuji
+avalanchego_node_json:
+  partial-sync-primary-network: true
+avalanchego_track_subnets:
+  - p4jUwqZsA2LuSftroCd3zb4ytH8W99oXKuKVZdsty7eQ3rXD6 # TODO: replace
