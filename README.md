@@ -39,7 +39,8 @@ The complete documentation related to this repository can be found in the [Suzak
    suzaku-testnet-node ansible_host=X.X.X.X avalanchego_http_host=0.0.0.0 ansible_user=ubuntu ansible_ssh_private_key_file=files/ansible_key.pem
    ```
 
-   You will typically have to replace `X.X.X.X` with the IP address of the VPS / bare metal machine used to run the Suzaku Operator and provide a `ansible_ssh_private_key_file` to allow Ansible to SSH into the target machine with the configured `ansible_user`.
+   -  Replace `X.X.X.X` with the IP address of the VPS / bare metal machine used to run the Suzaku Operator.
+   -  Provide the path to `ansible_ssh_private_key_file` to allow Ansible to SSH into the target machine with the configured `ansible_user`.
 
 ## Run the Avalanche node
 
@@ -49,7 +50,7 @@ The complete documentation related to this repository can be found in the [Suzak
    ansible-playbook ash.avalanche.provision_nodes -i inventories/fuji
    ```
 
-   This command will **install AvalancheGo** on the target machine, configure it to **track the *insert-cool-testnet-name* Suzaku network** and **start the AvalancheGo service**.
+   This command **installs AvalancheGo** on the target machine, configures it to **track the *insert-cool-testnet-name* Suzaku network** and **start the AvalancheGo service**.
 
 ## Node registration
 
