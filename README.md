@@ -50,7 +50,7 @@ The complete documentation related to this repository can be found in the [Suzak
    ansible-playbook ash.avalanche.provision_nodes -i inventories/fuji
    ```
 
-   This command **installs AvalancheGo** on the target machine, configures it to **track the *insert-cool-testnet-name* Suzaku network** and **start the AvalancheGo service**.
+   This command **installs AvalancheGo** on the target machine, configures it to **track the *suzaku9000spring* Suzaku network** and **start the AvalancheGo service**.
 
 ## Node registration
 
