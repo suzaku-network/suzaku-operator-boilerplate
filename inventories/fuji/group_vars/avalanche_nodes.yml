@@ -6,4 +6,4 @@ avalanchego_network_id: fuji
 avalanchego_node_json:
   partial-sync-primary-network: true
 avalanchego_track_subnets:
-  - kf7yPNdTD8T3V6N6m6ncDHEZp5UG5ffxf7DB2kBckdeUAtv13
+  - 22XB5waRLucd7upLoKpJ1R8j5hUDnnTzGc9Z7giEKjPYdu5VDK
