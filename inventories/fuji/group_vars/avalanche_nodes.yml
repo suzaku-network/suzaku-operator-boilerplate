@@ -7,3 +7,5 @@ avalanchego_node_json:
   partial-sync-primary-network: true
 avalanchego_track_subnets:
   - 22XB5waRLucd7upLoKpJ1R8j5hUDnnTzGc9Z7giEKjPYdu5VDK
+avalanchego_vms_install:
+  subnet-evm: 0.6.12
