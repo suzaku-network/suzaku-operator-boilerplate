@@ -36,7 +36,7 @@ body:
   - type: input
     id: blspubkey
     attributes:
-      label: NodeID
+      label: BLS public key
       description: Please provide the BLS public key of your validator.
       placeholder: ex. 0xa2d8524afaa3954d6d030e372af6606e959cf62b5442be07d1113c75c67c4cf6742a3338180eec1a325e9010eaaa3656
     validations:
@@ -44,7 +44,7 @@ body:
   - type: input
     id: blspop
     attributes:
-      label: NodeID
+      label: BLS PoP
       description: Please provide the BLS Proof of Possession (PoP) of your validator.
       placeholder: ex. 0xaeb3362dba19f937825f671c2a8395e91b5350909bff25918eb759f7c79bbd7beb86f67d36082f63a98504c1e6ef3bcf0980ea141e8a583373f4294f01401644c2386f39c47b53aa91a47ae90310c2c29e536de4d12f862f7d74c11f5ab2899a
     validations:
