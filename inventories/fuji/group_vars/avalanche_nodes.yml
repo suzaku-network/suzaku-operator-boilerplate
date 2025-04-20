@@ -1,11 +1,11 @@
-# Copyright (C) 2024, ADDPHO
+# Copyright (C) 2025, ADDPHO
 # See the file LICENSE for licensing terms.
 ---
-avalanchego_version: 1.12.0
+avalanchego_version: 1.13.0
 avalanchego_network_id: fuji
 avalanchego_node_json:
   partial-sync-primary-network: true
 avalanchego_track_subnets:
-  - 22XB5waRLucd7upLoKpJ1R8j5hUDnnTzGc9Z7giEKjPYdu5VDK
+  - mytZou2gmpqQyoeGcQhetnfsFUggUcDLik36jySE1r7te6EqB
 avalanchego_vms_install:
-  subnet-evm: 0.6.12
+  subnet-evm: 0.7.2
